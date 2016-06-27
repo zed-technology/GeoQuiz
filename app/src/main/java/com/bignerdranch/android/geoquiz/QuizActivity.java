@@ -38,7 +38,7 @@ public class QuizActivity extends AppCompatActivity {
         } else {
             messageResId = R.string.incorrect_toast;
         }
-        Toast.makeText(QuizActivity.this, R.string.incorrect_toast,Toast.LENGTH_SHORT).show();
+        Toast.makeText(QuizActivity.this, messageResId, Toast.LENGTH_SHORT).show();
 
     }
 
